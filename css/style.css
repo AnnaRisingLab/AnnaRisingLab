@@ -1816,7 +1816,7 @@ nav {
 .desc{
     width:1000px;
     height:auto;
-    margin-left:-24px;
+    margin-left:-104px;
     
     
     margin-top:12px;
@@ -4262,4 +4262,25 @@ pre {
   }
   .sub-style{
       margin-bottom:-40px;
+  }
+
+  .footer-new{
+      width:1680px;
+      height:120px;
+      background-color: #000;
+      position:absolute;
+  }
+  .hello1{
+      margin-left:200px;
+  }
+  .clickable{
+                                     
+  }
+
+  .infoclass{
+      width:150px;
+  }
+
+  .pub-list{
+      margin-top:-10px;
   }
