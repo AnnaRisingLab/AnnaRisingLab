@@ -4284,3 +4284,22 @@ pre {
   .pub-list{
       margin-top:-10px;
   }
+
+ .homesplit{
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    
+ }
+ 
+ .homeright {
+    width: 85%;
+    right: 0;
+    
+  }
+
+  .homeleft {
+    
+    left: 0;
+    
+  }
