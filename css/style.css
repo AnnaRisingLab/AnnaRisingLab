@@ -1188,7 +1188,7 @@ nav {
 
 /*----- About Section -----*/
 #about {
-    padding-top: 60px;
+    padding-top: 130px;
     padding-bottom: 60px;
 }
 .about-text {
@@ -1885,7 +1885,7 @@ blockquote strong {
 
 /*----- Services -----*/
 #services {
-	padding-top: 75px;
+	padding-top: 125px;
 	padding-bottom: 75px;
 }
 .service {
