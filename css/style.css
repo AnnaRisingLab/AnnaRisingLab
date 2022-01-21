@@ -953,16 +953,16 @@ nav {
 	border: none;
 }
 .navbar-default {
-    position: fixed;
+    position: absolute;
     background-color: #fff;
     border-radius: 0;
 	border-color: none;
 	border-bottom: none;
 	top: 0;
 	left: 0;
-	width: 100%;
+	width:  100%;
 	padding: 0;
-	z-index: 4;
+	z-index: 1000;
     /*border-bottom: 1px solid rgba(255,255,255,0.25);*/
 }
 .navbar-alt {
@@ -976,7 +976,7 @@ nav {
 }
 .navbar-default .container {
     
-	position: relative;
+	position: absolute;
     width:100%;
 	-webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -1012,7 +1012,7 @@ nav {
 	margin-top: 0px;
     margin-bottom: 0px;
 } 
-.navbar-alt .navbar-nav > li > a,
+/* .navbar-alt .navbar-nav > li > a,
 .navbar-alt .navbar-nav > li > span {
 	color: #fff;
     -webkit-transition: all 0.2s ease-in-out;
@@ -1020,8 +1020,8 @@ nav {
     -o-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-}
-.navbar-small .navbar-nav > li > a,
+} */
+/* .navbar-small .navbar-nav > li > a,
 .navbar-small .navbar-nav > li > span {
 	color: #1C1C1C;	
     -webkit-transition: all 0.2s ease-in-out;
@@ -1029,29 +1029,29 @@ nav {
     -o-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-}
-.navbar-nav>li>a,
+} */
+/* .navbar-nav>li>a,
 .navbar-nav>li>span {
     margin-top: 3px;
     padding-top: 16px;
     padding-bottom: 13px;
-}
+} */
 .nav>li>a,
 .nav>li>span {
     padding-left: 10px;
     padding-right: 10px;
 }
-.nav > li > span {
+/* .nav > li > span {
 	position: relative;
 	display: block; 
 	cursor: pointer;
-}
-.navbar-nav .caret {
+} */
+/* .navbar-nav .caret {
     margin-left: 3px;
     margin-top: -3px;
-}
+} */
 /*Navbar Toggle*/
-.navbar-default .navbar-toggle {
+/* .navbar-default .navbar-toggle {
     position: relative;
     float: right;
     padding: 9px 2px;
@@ -1067,8 +1067,8 @@ nav {
     -o-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease;
-}
-.navbar-small .navbar-toggle {
+} */
+/* .navbar-small .navbar-toggle {
     position: relative;
     float: right;
     padding: 9px 0px;
@@ -1079,87 +1079,32 @@ nav {
     background-image: none;
     border: none;
     border-radius: none;
-}
+} */
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
     background-color: transparent;
     outline: none;
 }
-.navbar-toggle .icon-bar {
+/* .navbar-toggle .icon-bar {
   display: block;
   width: 22px;
   height: 3px;
   border-radius: 2px;
-}
+} */
 /*Navbar Collapse Menu*/
 .navbar-collapse {
 	padding-right: 0px;
 	padding-left: 0px;
 	color: #3a3a3a;
 }
-.navbar-default .navbar-nav>li>a:focus {
-    color: #f5f5f5;
-}
-.navbar-small .navbar-nav>li>a:focus {
-    color: #1c1c1c;
-}
-
 
 
 
 /* End Logo Big White */
 /* Logo Small Black */
-.navbar-small .navbar-brand .logo-big {
-    position:absolute;
-    opacity: 0;
-    width: 170px;
-    margin-top: 3px;  
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    -o-transition: all 0.4s ease;
-    -ms-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-}
-.navbar-small .navbar-brand .logo-small {
-    position:absolute;
-    opacity: 1;
-    width: 170px;
-    margin-top: 3px; 
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    -o-transition: all 0.4s ease;
-    -ms-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-    
-}
+
 /* End Logo Small Black */
 
-.navbar-default .navbar-nav>.active>a, 
-.navbar-default .navbar-nav>.active>a:hover, 
-.navbar-default .navbar-nav>.active>a:focus {
-    background-color: transparent;
-}
-.navbar-default .navbar-nav>.open>a, 
-.navbar-default .navbar-nav>.open>a:hover, 
-.navbar-default .navbar-nav>.open>a:focus {
-    background-color: transparent;
-}
-.dropdown .arrow {
-    font-size:9px;    
-}
-.menu-padding { 
-    padding-top:70px; 
-}
-.content { 
-    margin-top:0px; 
-}
-.navbar .icon {
-    font-size: 18px;
-}
-.navbar .social-icon {
-    padding-left: 15px;
-    padding-right: 0;
-}
 
 /*----- Features -----*/
 #features {
