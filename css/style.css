@@ -894,7 +894,7 @@ a.hero-cta-alt:hover {
     transform: translateY(0px);
     /*-webkit-transition: 1s opacity ease-in-out;*/
 }
-.tp-loader.spinner1 {
+/* .tp-loader.spinner1 {
     width: 40px;
     height: 40px;
     background: url(../img/assets/rev-loader.GIF) no-repeat center center;
@@ -909,15 +909,15 @@ a.hero-cta-alt:hover {
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
 }
- 
-.tp-banner-container{
+  */
+/* .tp-banner-container{
 	width:100%;
 	position:relative;
 	padding:0;
     margin-top: 0;
     z-index: -1;
-} 
-.tparrows.preview4:after {
+}  */
+/* .tparrows.preview4:after {
     background: #fff;
     background: rgba(255,255,255,.05);
 }
@@ -938,7 +938,7 @@ a.hero-cta-alt:hover {
     width: 100%!important;
     height: auto!important;
     left: 0!important
-}
+} */
 /*----- Header -----*/ 
 nav {
     -webkit-transition: all 0.4s ease;
@@ -1163,7 +1163,7 @@ nav {
 .video-container iframe,
 .video-container object,
 .video-container embed {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
